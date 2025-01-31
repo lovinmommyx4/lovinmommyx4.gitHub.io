@@ -1,0 +1,52 @@
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    z-index: 2;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.brushes {
+    background-color: mediumspringgreen;
+    width: 100%;
+    padding: 5px;
+    display: block;
+    position: relative;
+}
+
+.wood {
+    background-color: lightcoral;
+    width: 100%;
+    padding: 5px;
+    display: block;
+    position: relative;
+}
+
+.paint {
+    background-color: skyblue;
+    width: 100%;
+    padding: 5px;
+    display: block;
+    position: relative;
+}
+
+#price {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+
+.image{
+    background-image: url("pattern.jpeg");
+    height: 125px;
+    z-index: 1;
+    background-size: cover;
+}
